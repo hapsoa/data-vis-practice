@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <p>안녕하세요</p>
+    <p>그래</p>
+    <svg width="500" height="500">
+      <g id="lines"></g>
+      <g id="bars"></g>
+    </svg>
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+<script src='./Home.ts' lang="ts" />
 
-@Component({
-  components: {
-    HelloWorld,
-  },
-})
-export default class Home extends Vue {}
-</script>
+<style lang='scss'>
+svg {
+  border: 1px solid #aaa;
+  margin: 10px;
+}
+</style>
