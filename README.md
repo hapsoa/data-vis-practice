@@ -1,4 +1,4 @@
-# d3-bar-chart
+# data-vis-practice
 
 ## Project setup
 ```
